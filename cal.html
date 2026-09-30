@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+<body>
+    <div class="main">
+        <div>
+            <input type="text" placeholder="0" class="dis">
+        </div>
+        <!--1st row-->
+        <div class="grid">
+        
+            <button onclick="allclear()">Ac</button>
+            <button onclick="oneclear()">Del</button>
+            <button onclick = "addvalue('%')">%</button>
+            <button onclick="addvalue('/')" class="add">/</button>
+        
+        
+            <button onclick="addvalue('7')">7</button>
+            <button onclick="addvalue('8')">8</button>
+            <button onclick="addvalue('9')">9</button>
+            <button onclick="addvalue('*')" class="add">*</button>
+        
+         
+            <button onclick="addvalue('4')">4</button>
+            <button onclick="addvalue('5')">5</button>
+            <button onclick="addvalue('6')">6</button>
+            <button onclick="addvalue('-')" class="add">-</button>
+        
+         
+            <button onclick="addvalue('1')">1</button>
+            <button onclick="addvalue('2')">2</button>
+            <button onclick="addvalue('3')">3</button>
+            <button onclick="addvalue('+')" class="add">+</button>
+        
+            <button onclick="addvalue('00')">00</button>
+            <button onclick="addvalue('0')" class="zero">0</button>
+            <button onclick="addvalue('.')">.</button>
+            <button onclick="add()" class="equal">=</button>
+        </div>
+    </div>
+
+
+    
+
+    </div>
+    <script src="./cal.js"></script>
+</body>
+</html>

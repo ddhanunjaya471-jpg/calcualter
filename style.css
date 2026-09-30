@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452) ;
+    overflow:hidden;
+    flex-wrap: wrap;
+}
+.main{
+    border : 2px solid transparent;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px rgba(113,115,119,0.5);
+    padding: 20px 30px 30px 30px;
+    
+}
+input{
+  text-align: right;
+  border: 2px solid transparent;
+  height: 80px;
+  font-size: 20px;
+  width: 100%;
+  background: transparent;
+  color: white;
+  padding-bottom: 20px;
+}
+button{
+   border: 2px solid transparent;
+   background: transparent;
+   padding: 5px;
+   font-size: 15px;
+   color: white;
+   border-radius: 50%;
+   box-shadow:0 3px 15px rgba(113,115,119,0.5);
+   padding: 10px;
+
+}
+button:hover{
+  opacity: 0.8;
+}
+.grid{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.equal{
+    background: rgb(147, 194, 196);
+}
